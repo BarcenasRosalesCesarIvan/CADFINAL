@@ -32,6 +32,7 @@ Route::get('/cambiar-contrasena', [App\Http\Controllers\Auth\ChangePasswordContr
 Route::post('/cambiar-contrasena', [App\Http\Controllers\Auth\ChangePasswordController::class, 'changePassword'])->name('cambiar-contrasena.post')->middleware('auth');;
 
 
+
 //Route::get('/test', [App\Http\Controllers\HomeController::class, 'test'])->name('test');
 
 //Route::get('/prefectura/edit', [App\Http\Controllers\prefectoController::class, 'crudPrefecto'])->name('crudPrefecto');
